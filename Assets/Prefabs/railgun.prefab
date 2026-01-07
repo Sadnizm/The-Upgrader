@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1682022627873745269}
   - component: {fileID: 6408673340074997404}
   - component: {fileID: 6782421978879347334}
+  - component: {fileID: -3899765996206908123}
+  - component: {fileID: 4888563532715966787}
   m_Layer: 0
   m_Name: railgun
   m_TagString: Drop
@@ -180,6 +182,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &-3899765996206908123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57603415108515398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324a15989877436a861bd398ad569655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4888563532715966787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57603415108515398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da57800110fd423681b87299d829e80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1596496673872603188
 GameObject:
   m_ObjectHideFlags: 0
